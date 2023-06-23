@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hanya Beauty Center.com</title>
+	<link rel="stylesheet" href="css/bootstrap-4.4.1.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="css/phone.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+	<link rel="shortcute icon" class="mr-3 img-fluid rounded-circle" href="images/favicon.ico"/>
+</head>
+
+<body style="background-image: url('77.gif');">
+    <nav id="navbar">
+        <div id="logo">
+            <img class="mr-3 img-fluid rounded-circle" src="logo.png" alt="Hanya Beauty Center">
+        </div>
+	&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+	&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <ul>
+            <li class="item"><a href="#contact">Contact Us</a></li>&emsp;
+            <li class="item"><a href="#client-section">Payment</a></li>&emsp;
+            <li class="item"><a href="#services-container">Services</a></li>&emsp;
+			<li class="item"><a href="#first">Home</a></li>
+            
+        </ul>
+		
+		
+    </nav>
+
+     <!--image slider start-->
+    <div id="first" class="slider">
+      <div class="slides">
+        <!--radio buttons start-->
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+        <!--radio buttons end-->
+        <!--slide images start-->
+        <div class="slide first">
+          <img src="5.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="6.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="7.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="9.jpg" alt="">
+        </div>
+        <!--slide images end-->
+        <!--automatic navigation start-->
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+        </div>
+        <!--automatic navigation end-->
+      </div>
+      <!--manual navigation start-->
+      <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+      </div>
+      <!--manual navigation end-->
+    </div>
+    <!--image slider end-->
+
+    <script type="text/javascript">
+    var counter = 1;
+    setInterval(function(){
+      document.getElementById('radio' + counter).checked = true;
+      counter++;
+      if(counter > 4){
+        counter = 1;
+      }
+    }, 5000);
+    </script>
+
+	
+    <section id="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div style="background-image: url('78.gif');" class="box">
+                <img class="mr-3 img-fluid rounded-circle" src="img/1.jpg" alt="">
+                <h2 class="h-secondary center">Clinic</h2>
+                <p class="left">Our clinic has many special services such as Plastic Surgery for small Nose And ears and Lips and we have Laser for men and women for all parts of body, you can sent (model cod) for us with your (mobile number) by (contact us) we call you, *Note that the Money must be sent by (FastPay) to one of the above numbers</p>
+					<a href="clinic.html" class="btn" target="_self">Open Page</a>
+            </div>
+            <div style="background-image: url('78.gif');" class="box">
+                <img class="mr-3 img-fluid rounded-circle" src="img/2.jpg" alt="">
+                <h2 class="h-secondary center">Nails</h2>
+                <p class="left">We are ready to clean, beautify and color your nails for all occasions of natural nail beauty and artificial nails. We have many different styles of ordinary nails, We have home service, you can sent (model cod) for us with your (mobile number) by (contact us) we call you, *Note that the money must be sent by (FastPay) to one of the above numbers.</p>
+					<a href="nails.html" class="btn" target="_self">Open Page</a>
+            </div>
+            <div style="background-image: url('78.gif');" class="box">
+                <img class="mr-3 img-fluid rounded-circle" src="img/3.jpg" alt="">
+                <h2 class="h-secondary center">Hair Cut</h2>
+                <p class="left">We are ready to cut any type of hair for Children and old women for all occasions, Whatever your hair problems we can treat you with our product or our doctors with many years of experience,  you can sent (model cod) for us with your (mobile number) by (contact us) we call you, *Note that the money must be sent by (FastPay) to one of the above numbers.</p>
+					<a href="haircut.html" class="btn" target="_self">Open Page</a>
+            </div>
+        </div>
+    </section>
+	
+	<section id="services-container">
+        <div id="services">
+            <div style="background-image: url('78.gif');" class="box">
+                <img class="mr-3 img-fluid rounded-circle" src="img/8.jpg" alt="">
+                <h2 class="h-secondary center">Face Cleaning</h2>
+                <p class="left">We are ready to face cleaning by vapour and mask, we have many orginal mask to your face natural mask and artificial mask, you can sent (model cod) for us with your (mobile number) by (contact us) we call you, *Note that the Money must be sent by (FastPay) to one of the above numbers </p>
+					<a href="facecleaning.html" class="btn" target="_self">Open Page</a>
+            </div>
+            <div style="background-image: url('78.gif');" class="box">
+                <img class="mr-3 img-fluid rounded-circle" src="img/9.jpg" alt="">
+                <h2 class="h-secondary center">Hair Transplant</h2>
+                <p class="left">We are ready to hair transplant if you (18+) you can transplant your hair of hanya beauty and we have hair therapist and PRP for hair, you can sent (model cod) for us with your (mobile number) by (contact us) we call you, *Note that the money must be sent by (FastPay) to one of the above numbers.</p>
+					<a href="hairtransplant.html" class="btn" target="_self">Open Page</a>
+            </div>
+            <div style="background-image: url('78.gif');" class="box">
+                <img class="mr-3 img-fluid rounded-circle" src="img/10.jpg" alt="">
+                <h2 class="h-secondary center">Our Product</h2>
+                <p class="left">We have many beauty product for sale like (Lip stick and Face powder and eye shadow....) you can order for all city Of Kurdistan and Iraq ,  you can sent (model cod) for us with your (mobile number) by (contact us) we call you, *Note that the money must be sent by (FastPay) to one of the above numbers.</p>
+					<a href="ourproduct.html" class="btn" target="_self">Open Page</a>
+            </div>
+        </div>
+    </section>
+	
+	<section id="services-container">
+        <div id="services">
+            <div style="background-image: url('78.gif');" class="box">
+                <img class="mr-3 img-fluid rounded-circle" src="img/coloring.jpg" alt="">
+                <h2 class="h-secondary center">Hair Colors</h2>
+                <p class="left"> We have many special colors for paint your hair natural color and artificial color and we have Ombre Hair and hairpull, you can sent (model cod) for us with your (mobile number) by (contact us) we call you, *Note that the Money must be sent by (FastPay) to one of the above numbers </p>
+					<a href="haircolors.html" class="btn" target="_self">Open Page</a>
+            </div>
+            <div style="background-image: url('78.gif');" class="box">
+                <img class="mr-3 img-fluid rounded-circle" src="img/braiding.jpg" alt="">
+                <h2 class="h-secondary center">Braids</h2>
+                <p class="left">We have many style for braiding your hair special for bride in the Engagements Day and Henas Night and Weddings Day, you can sent (model cod) for us with your (mobile number) by (contact us) we call you, *Note that the money must be sent by (FastPay) to one of the above numbers.</p>
+					<a href="braids.html" class="btn" target="_self">Open Page</a>
+            </div>
+            <div style="background-image: url('78.gif');" class="box">
+                <img class="mr-3 img-fluid rounded-circle" src="img/hairstyle.jpg" alt="">
+                <h2 class="h-secondary center">Hair Style</h2>
+                <p class="left">Hair style for outing and school and anywhere we have three type hair style (princess and double bun and snake bun),  you can sent (model cod) for us with your (mobile number) by (contact us) we call you, *Please note that the money must be sent by (FastPay) to one of the above numbers.</p>
+					<a href="hairstyle.html" class="btn" target="_self">Open Page</a>
+            </div>
+        </div>
+    </section>
+	
+    <section id="client-section">
+        <h1 class="h-primary center">Payment</h1>
+		<div id="contact-box">
+		<form action = "PHP/Order1.php" method="post">
+		
+         <div class="form-group">
+                    <label for="name">FastPay Number </label>
+                    <input type="text" name = "FastPay_Name"  id="kurdi2" placeholder="Enter your FastPay Number" required></input>
+                </div>
+				<div>
+				<input class="btn-primary" type="submit" name = "input" value="Send">
+			</div>
+        
+		</form>
+		</div>
+    </section>
+
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action = "PHP/Order2.php" method="post">
+				<div id="logo2"> 
+		<a href="https://instagram.com/salon_hanya?igshid=YmMyMTA2M2Y=" ><img src="instagram.png" height="77px" width="70px" alt="backlogo"> </a>
+		<a href="https://t.snapchat.com/uL61eFDq" ><img src="snapchat.png" height="77px" width="70px" alt="backlogo"> </a>
+		<a href="https://goo.gl/maps/Gw9waRKF78iJVibR7" ><img src="location.png" height="77px" width="70px" alt="backlogo"> </a>
+		</div>
+		<div>
+		<h3 id="white-center">بۆ دەستنیشانکرنا ژڤانی پەیوەندیێ بکەن</h3>
+		<h3 id="white-center">07504783404-07506775555</h3>
+		</div>
+                <div class="form-group">
+                    <label for="email">Model Code </label>
+                    <input type="text" name = "Model_Code" id="kurdi2"  placeholder="Enter model code" required></input>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number: </label>
+                    <input type="text" name = "Phone_Number" id="kurdi2" placeholder="Enter your phone" required></input>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message: </label>
+                    <textarea type="text" name="Message" cols="30" rows="10"></textarea>
+                </div>
+				<div>
+				<input class="btn-primary" type="submit" name = "input" value="Send">
+			</div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="center">
+            Copyright &copy; www.Hanya Beauty Center.com. All rights reserved
+        </div>
+    </footer>
+</body>
+
+</html>
